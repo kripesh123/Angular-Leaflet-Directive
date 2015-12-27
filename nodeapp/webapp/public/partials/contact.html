@@ -1,0 +1,24 @@
+	<leaflet lf-center="kathmandu" markers="markers" event-broadcast="events" height="400px" width="100%"></leaflet>
+	<h1>Hello Leaflet</h1>
+	<ul>
+<li>
+	<label>Latitude:</label>
+	<input type="number" step="any" ng-model="kathmandu.lat" />
+</li>
+<li>
+	<label>Longitude:</label>
+	<input type="number" step="any" ng-model="kathmandu.lng" />
+</li>
+<li>
+	<label>Zoom:</label>
+	<input type="number" step="any" ng-model="kathmandu.zoom" />
+</li>
+	</ul>	
+
+	<h1>Marker</h1>
+	<p>Actual marker position (lat/lng): <strong  ng-bind="position.lat"></strong> / <strong ng-bind="position.lng"></strong></p>
+
+
+ <button ng-click="removeMarkers()">Remove markers</button>
+      <button ng-click="addMarkers()">Add markers</button>  
+

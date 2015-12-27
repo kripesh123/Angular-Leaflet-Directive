@@ -1,0 +1,58 @@
+<html ng-app="app">
+<head>
+	<title>Socio-Network</title>
+	   
+         <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/angular_material/0.8.3/angular-material.min.css">
+        <!-- Bootstrap 3.3.4 -->
+        <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />  
+        <!-- Leaflet-->
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />  
+       
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+       
+        
+</head>
+<body>
+<header>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#/">Angular Project</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+          <li><a href="#/admin">Admin</a></li>
+          <li><a href="#/course">Course</a></li>
+          <li><a href="#/about">About Us</a></li>
+          <li><a href="#/contact">Contact Us</a></li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
+<div ng-view></div>
+
+<script src="static/js/libs/angular.min.js"></script>
+<script src="static/js/libs/angular-route.min.js"></script>
+<script src="static/js/app1.js"></script>
+<script src="static/js/router.js"></script>
+<script src="static/js/controllers/HomeController.js"></script>
+<script src="static/js/controllers/AdminController.js"></script>
+<script src="static/js/controllers/ContactController.js"></script>
+
+
+ <!-- Latest compiled and minified JavaScript and Leaflet-->
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+         <script src="http://tombatossals.github.io/angular-leaflet-directive/dist/angular-leaflet-directive.min.js"></script>
+        <script src="static/js/libs/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>
